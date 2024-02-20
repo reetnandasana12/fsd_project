@@ -22,6 +22,9 @@ const AddRoom = () => {
 				value = parseInt(value)
 			} else {
 				value = ""
+
+
+				
 			}
 		}
 		setNewRoom({ ...newRoom, [name]: value })
