@@ -10,6 +10,7 @@ const AddRoom = () => {
 		roomPrice: ""
 	})
 
+	const test;
 	const [successMessage, setSuccessMessage] = useState("")
 	const [errorMessage, setErrorMessage] = useState("")
 	const [imagePreview, setImagePreview] = useState("")
