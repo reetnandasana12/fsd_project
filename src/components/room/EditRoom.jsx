@@ -8,6 +8,7 @@ const EditRoom = () => {
 		roomType: "",
 		roomPrice: ""
 	})
+	const a;
 
 	const [imagePreview, setImagePreview] = useState("")
 	const [successMessage, setSuccessMessage] = useState("")
