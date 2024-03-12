@@ -9,8 +9,7 @@ const AddRoom = () => {
 		roomType: "",
 		roomPrice: ""
 	})
-
-	const test;
+cls
 	const [successMessage, setSuccessMessage] = useState("")
 	const [errorMessage, setErrorMessage] = useState("")
 	const [imagePreview, setImagePreview] = useState("")
