@@ -6,7 +6,7 @@ export const AuthContext = createContext({
 	handleLogin: (token) => {},
 	handleLogout: () => {}
 })
-
+const a;
 export const AuthProvider = ({ children }) => {
 	const [user, setUser] = useState(null)
 
