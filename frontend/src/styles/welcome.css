@@ -1,0 +1,17 @@
+.welcome-container{
+    /*padding: px;*/
+    color:white;
+}
+nav button{
+    margin-left: 3vw;
+    cursor: pointer;
+}
+nav{
+    margin-left: 0vw;
+}
+.navbar-button button{
+    border: none;
+    background-color: transparent;
+    font-size: 25px;
+    color: rgb(226, 83, 69);
+}

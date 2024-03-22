@@ -1,0 +1,27 @@
+.main-container{
+    width:20vw;
+    height: 50vh;
+    margin-top: 20vh;
+    padding: 5vh;
+    background-color: #FEC7B4;
+    
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+.inner{
+    width: fit-content;
+}
+.inner button{
+    border: none;
+    font-size: 20px;
+    margin: 1vh;
+    padding: 2vh;
+    cursor: pointer;
+    background-color: #FEC7B4;
+}
+.inner button.active {
+    /* background-color: white; */
+    color: white;
+    border-radius: 10px;
+    background-color: #401F71;
+}

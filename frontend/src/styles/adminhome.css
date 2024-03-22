@@ -1,0 +1,57 @@
+.queue-view{
+        width: 90vw;
+        background-color:transparent;
+        /*box-shadow: 0px 2px 5px rgba(0,0,0,0.1);*/
+        border-radius: 5px;
+}
+.admin-outer{
+        margin-left: 5vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+}
+.admin-queueView{
+        flex: 0 0 calc(22%);
+        background-color: #BE7B72;
+        margin: 10vh;
+        border-radius: 10px;
+}
+.user-queueView{
+        padding: 2vh;
+        border-radius: 10px;
+        margin-bottom: 15px;
+}
+.user-queueView:hover {
+        background-color: #3f3e3e;
+}
+.user-queueView button{
+        margin: 3px;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        color: white;
+}
+.queue-container{
+        margin-left: 27vw;
+        margin-right: 27vw;
+        width: fit-content;
+        height: fit-content;
+        padding: 2vh;
+        background-color: #401F71;
+}
+.user-container{
+        border-radius: 5px;
+        width: 45vw;
+}
+.user-container:hover{
+        padding: 5px;
+}
+.user-container button {
+        margin: 10px;
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        color: white;
+}
